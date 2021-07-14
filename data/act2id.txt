@@ -1,0 +1,10 @@
+walk_backward:0
+walk_forward:1
+fall_sit:2
+sit:3
+fall_backward:4
+fall_left:5
+stand:8
+fall_forward:6
+recover:7
+lay:9
