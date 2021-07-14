@@ -6,3 +6,5 @@ Our project tries to detect falling behaviors through Wi-Fi signals in an indoor
 In the data preprocessing stage, since the dimension of the Wi-Fi data is very high (approximately 90), we reduced the dimension of the data by using Principal Component Analysis (PCA). To reduce the influence of errorneous information from former times, we applied a new strategy called *Random State Reset*. The core concept of this strategy is that at any current time *t*, with a probability *p*, we reset the hidden state ![equation](https://render.githubusercontent.com/render/math?math=S_{t-1}) from the previous time step *(t-1)* to zero. This would remove all the previous information, the “memory” of the RNN up until time *t* and therefore reduce the incorrect information from previous times.
 
 The average performance we received is 84.67% for RNN model and 85.83% for RSR-RNN model. 
+
+A brief 2-minute presentation can be watched [here!](https://www.youtube.com/watch?v=Xd_Phzt11sg)
